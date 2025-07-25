@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  font-size: 2.8em;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.info-section {
+  background-color: #ffffff;
+  border-radius: 11px;
+  border: 1px solid #dcdcdc;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(18, 21, 24, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-align: justify;
+}
+
+.info-section:hover {
+  transform: translateY(-4px);
+}
+
+.info-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #0066cc;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 5px;
+}
+
+
+.info-section p {
+  font-size: 1.05em;
+  line-height: 1.8;
+  white-space: pre-line;
+  margin: 0;
+  color: #333;
+}
